@@ -26,7 +26,7 @@ Look for bethz/azurecli-jupyter-spark
 
 Run the Docker Container with this cmd in WSL in the folder where you want to create jupyter notebooks: 
 
-> docker run -it --rm --user 1000 -p 8888:8888 -p 4040:4040 -v $(pwd):/home/jovyan azurecli-jupyter-spark
+> docker run -it --rm --user 1000 -p 8888:8888 -p 4040:4040 -v $(pwd):/home/bz azurecli-jupyter-spark
 
 A url will be provided that you can run in a browser.  Sometimes Windows will show (or hide) an approval for docker to access your local drive from wsl.
 
